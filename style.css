@@ -1,9 +1,20 @@
 th,td{
     border: 1px solid; /*Borda*/
-    padding: auto; /*Espaço interno*/
+    padding: 8px; /*Espaço interno*/
+    text-align: justify; /*Alinhamento de texto*/
+    text-transform: uppercase; /*Letras maiúsculas*/
 }
 
 table{
     border-collapse: collapse; /*Junta as bordas*/
-    margin-bottom: 10px; /*adiciona espaço entre as tabelas*/
+    margin-bottom: 10px; /*Adiciona espaço entre as tabelas*/
+}
+button{
+    margin-bottom: 20px;
+    padding: 5px;
+    position: relative;
+    left: 50%;
+}
+h1{
+    text-align: center;
 }
