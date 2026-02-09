@@ -1,0 +1,9 @@
+th,td{
+    border: 1px solid; /*Borda*/
+    padding: auto; /*Espaço interno*/
+}
+
+table{
+    border-collapse: collapse; /*Junta as bordas*/
+    margin-bottom: 10px; /*adiciona espaço entre as tabelas*/
+}
