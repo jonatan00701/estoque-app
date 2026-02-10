@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTROLE DE SAÍDAS</title>
-    <Link:css></Link:css>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>CONTROLE DE SAÍDAS</h1>
+
+    <button id="adicionar-saída"><strong>ADICIONAR</strong></button>
+
+    <div class="tabela-saída-1">
+        <table> <!--Adiciona uma tabela-->
+            <thead> <!--Adiciona cabeçario a tabela-->
+                <tr> <!--Coloca os dados em uma linha horizontal-->
+                    <th> <!--Adiciona conteúdo a um dos títulos da tabela-->
+                        RECEBEDOR
+                    </th>
+                    <th>CA/CÓDIGO</th>
+                    <th>DESCRIÇÃO</th>
+                    <th>QUANTIDADE</th>
+                </tr>
+            </thead>
+            <tbody> <!--Corpo da tabela-->
+                <tr>
+                    <td contenteditable="true"></td> <!--Adiciona dados em uma das celulas da tabela-->
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tabela-saída-2">
+        <table> <!--Adiciona uma tabela-->
+            <thead> <!--Adiciona cabeçario a tabela-->
+                <tr> <!--Coloca os dados em uma linha horizontal-->
+                    <th> <!--Adiciona conteúdo a um dos títulos da tabela-->
+                        RECEBEDOR
+                    </th>
+                    <th>DESCRIÇÃO</th>
+                    <th>QUANTIDADE</th>
+                    <th>UNIDADE</th>
+                    <th>TIPO</th>
+                    <th>VALOR UNITÁRIO</th>
+                    <th>VALOR TOTAL</th>
+                    <th>CA/CÓDIGO</th>
+                    <th>HORÁRIO</th>
+                </tr>
+            </thead>
+            <tbody> <!--Corpo da tabela-->
+                <tr>
+                    <!--Adicionadas por JS-->
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <script src="saída.js"></script>
 </body>
 </html>

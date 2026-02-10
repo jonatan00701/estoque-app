@@ -1,3 +1,7 @@
+body{
+    place-items: center; /*Centraliza horizontal e vertical*/
+}
+
 th,td{
     border: 1px solid; /*Borda*/
     padding: 8px; /*Espaço interno*/
@@ -8,13 +12,15 @@ th,td{
 table{
     border-collapse: collapse; /*Junta as bordas*/
     margin-bottom: 10px; /*Adiciona espaço entre as tabelas*/
+    margin-top: 50px; /*Adiciona espaço acima da tabela*/
 }
-button{
-    margin-bottom: 20px;
-    padding: 5px;
-    position: relative;
-    left: 50%;
+
+button {
+  position: fixed; /*Fixa em relação à janela*/
+  left: 50%; /*Meio horizontal*/
+  transform: translate(-50%, -50%); /*Ajusta para o centro exato*/
 }
+
 h1{
-    text-align: center;
+    text-align: center; /*Alinha o texto no centro horizontal*/
 }
